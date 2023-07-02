@@ -1,0 +1,25 @@
+{
+  "name": "matildevoldsen/statsphp",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matilde Enevoldsen"
+    }
+  ],
+  "version": "0.1.0",
+  "description": "A stats system for Laravel",
+  "type": "library",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "StatsPHP\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "StatsPHP\\Providers\\StatsPHPServiceProvider"
+      ]
+    }
+  }
+}
